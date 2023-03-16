@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title></title>
+		<link href="/style.css" rel="stylesheet" type="text/css" />
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+		<script>
+			MathJax = {
+				tex: {
+					tags: "all",
+				},
+			};
+		</script>
+
+		<script
+			id="MathJax-script"
+			async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+		></script>
+	</head>
+	<body>
+		<h1>Flujo eléctrico y ley de Gauss</h1>
+		<h2>Flujo eléctrico</h2>
+		<p>
+			A los físicos del siglo XIX les gustaban las analogías entre campos y
+			flujo de fluidos. Si el fluido fluye desde una fuente, entonces la
+			cantidad de fluido que fluye a través de cualquier superficie que encierra
+			esa fuente debe ser constante independientemente de la forma de esa
+			superficie. La cantidad de líquido que atraviesa una superficie a veces se
+			denomina flujo. Aunque sería incorrecto pensar en los campos eléctricos y
+			gravitacionales como fluidos, la maquinaria matemática es idéntica y
+			necesitaremos calcular una cantidad conocida como flujo eléctrico.
+		</p>
+		<img src="/imagenes/FlujoElectrico.png " width="50 px" />
+		<p>
+			El flujo eléctrico es una medida del número de líneas de campo eléctrico
+			que atraviesan una superficie en un punto dado. Se define como el producto
+			del campo eléctrico en cada punto de la superficie por el área de la
+			superficie proyectada en la dirección del campo eléctrico. En otras
+			palabras, el flujo eléctrico mide cuánto campo eléctrico pasa a través de
+			una superficie dada.
+		</p>
+		<p>
+			Si nos atenemos a la definición de flujo eléctrico, cuando disponemos de
+			un campo eléctrico uniforme \( \vec{E} \) y una superficie \( \vec{A} \),
+			el flujo eléctrico ( \( \Phi_{E}\) )se puede calcular por medio de la
+			siguiente expresión: $$ \Phi \cdot_{E} = \vec{E} \cdot \vec{A}$$ Si
+			consideramos que la superficie es perpendicular al campo eléctrico (es
+			decir, A y E forman un ángulo de 0º entre ellos), aplicando la definición
+			de producto escalar obtenemos que: \( \Phi\cdot_{E} = \vec{E} \cdot
+			\vec{A} = E \cdot A \cdot cos \theta = E \cdot A \). El flujo eléctrico
+			que atraviesa una superficie plana perpendicular a un campo eléctrico
+			uniforme, viene determinado por la siguiente expresión: \( \Phi\cdot_{E} =
+			E \cdot A \)
+		</p>
+
+		<h2>Ley de Gauss</h2>
+		<p>
+			La ley de Gauss, también conocida como teorema de Gauss fué enunciada por
+			el matemático alemán Karl Friederich Gauss (1777-1855). Es una ley
+			fundamental de la física que establece que el flujo eléctrico a través de
+			cualquier superficie cerrada es proporcional a la carga eléctrica neta
+			encerrada dentro de esa superficie. Matemáticamente, la ley de Gauss se
+			expresa como:
+		</p>
+		<p>
+			$$\oint_{S}\vec{E}\cdot d\vec{A}=\frac{Q_{enc}}{\epsilon_{0}}$$ donde \(
+			\oint_{S}\) denota la integral de superficie cerrada sobre la superficie
+			\(S\), \(\vec{E}\) es el campo eléctrico, \(d\vec{A}\) es un elemento de
+			área vectorial en la superficie \(S\), \(Q_{enc}\) es la carga neta
+			encerrada por la superficie \(S\) y \(\epsilon_{0}\) es la constante
+			dieléctrica del vacío.
+		</p>
+
+		<p>
+			Esta ley tiene una amplia variedad de aplicaciones en la física, ya que
+			permite calcular el campo eléctrico en situaciones donde la distribución
+			de carga tiene simetría. Por ejemplo, si se tiene una carga puntual en el
+			origen de un sistema de coordenadas, se puede utilizar la ley de Gauss
+			para calcular el campo eléctrico en cualquier punto del espacio. Si se
+			elige una superficie esférica con centro en el origen, el flujo eléctrico
+			a través de la superficie es proporcional a la carga puntual, lo que
+			permite calcular el campo eléctrico de manera sencilla.
+		</p>
+		<h2>Aplicaciones de la ley de Gauss</h2>
+		<p>
+			Aunque a la hora de calcular el campo eléctrico generado por ciertas
+			superficies cargadas es posible hacer uso de la ley de Coulomb, en muchas
+			ocasiones resulta más sencillo utilizar el teorema de Gauss sobre el flujo
+			eléctrico. Para ello es común seguir los siguientes pasos: 
+         </p>
+         <ol>
+            <li> Se escoge
+               una superficie cerrada perpendicular al campo eléctrico y cuya área sea
+               conocida para nosotros. Esta superficie recibe el nombre de superficie
+               gaussiana y deberá envolver a la superficie que genera el campo.
+            </li> 
+            <br>
+               <li>
+                  Se aplica la expresión general del flujo eléctrico para cualquier tipo de superficie. 
+                  \begin{equation*} \Phi_{E} = \oint_{S}\vec{E}\cdot d\vec{A} \end{equation*}
+               </li>
+           
+               <li>
+                  El valor obtenido en el punto anterior se
+                  iguala a la expresión del teorema de Gauss. ΦE= Q / ε 
+                  $$ \Phi_{E} =\frac{Q_{enc}}{\epsilon_{0}}$$
+               </li>
+         </ol>
+ 
+ En concreto puedes estudiar la aplicación de esta estrategia en los siguientes casos: 
+		</p>
+<p>
+   Ejemplo 1. Un cubo de lado 0.3 m está colocado con un vértice en el origen de coordenadas como se muestra en la figura. Se encuentra en el seno de un campo eléctrico no uniforme, que viene dado por: 
+
+   \begin{equation*}
+      \vec{E} = ( - 5 \cdot x \cdot \vec{i} + 3 \cdot z \cdot \vec{k}) N/C 
+      \end{equation*}
+   
+   <img src="/imagenes/Cubo2.png" width="20 px" >
+      
+</p>
+<ol type="a">
+   <li>
+      Halla el flujo eléctrico a través de sus seis caras.
+   
+   </li>
+   <li>
+      Determina la carga eléctrica total en su interior.
+   </li>
+</ol>
+<p>
+   Ejemplo 2. Una superficie gaussiana esférica rodea a una carga puntual q. Describa qué le sucede al flujo total a través de la superficie, si 
+   <ol type="A">
+      <li>
+         la carga se triplica,
+      </li>
+      <li>
+         se duplica el radio de la esfera, 
+      </li>
+      <li>
+         la superficie se cambia a la forma de un cubo,
+      </li>
+      <li>
+         la carga se mueve a otro punto dentro de la superficie.
+      </li>
+   </ol>
+</p>
+   <p>
+      SOLUCIÓN					
+A) El flujo que pasa a través de la superficie se triplica ya que el flujo es proporcional a la cantidad de carga dentro de la superficie.					
+B) El flujo no cambia, ya que todas las líneas de campo eléctrico pasan a través de la esfera, cualquiera que sea su radio. C) El flujo no cambia, aun cuando la forma de la superficie gaussiana cambie, ya que todas las líneas de campo eléctrico de la carga pasan a través de la superficie, sin importar su forma.					
+D) El flujo no cambia cuando la carga se pasa a otra ubicación dentro de la superficie, ya que la ley de Gauss se refiere a la carga total encerrada, sin considerar la ubicación de la carga dentro de la esfera. 
+   </p>
+
+
+<p>
+   Ejemplo 3. La figura  muestra el campo producido por dos cargas puntuales + q y - 2q de igual magnitud y signos opuestos (un dipolo eléctrico). Determine el flujo eléctrico a través de cada una de las superficies cerradas, A, B, C y D.
+</p>
+<figure>
+   <img src="/imagenes/EjemploGauss.png " alt="Ejercicio ley de Gauss">
+   <figcaption>Figura. Título o nombre de la figura aquí. Modificado de ...</figcaption>
+ </figure>
+
+<p>
+   Sol/			
+   La definición de flujo eléctrico dada en la ecuación ( ) implica una integral de superficie, por lo que quizá parezca que se necesita resolver una integral. Pero la ley de Gauss establece que el flujo eléctrico total a través de una superficie cerrada es igual a la carga total encerrada dividida entre P0. Por inspección de la figura, la superficie A (en color rojo) encierra la carga positiva, por lo que Qenc = + q; la superficie B (en azul) contiene la carga negativa, de manera que Qenc = - q; la superficie C (en púrpura) encierra las dos cargas, y tiene Qenc = + q + (- q) = 0; y la superficie D (en amarillo), no encierra cargas y también tiene Qenc = 0. De manera que sin resolver ninguna integral podemos concluir que los flujos totales para las diversas superficies son \( \Phi_{E} = \frac{+q}{\epsilon_{0}}\)  para la superficie A, \( \Phi_{E} = \frac{-q}{\epsilon_{0}} \)  para la B y \( \Phi_{E} = 0 \) tanto para la superficie C como la D.
+   
+</p>
+		<p><a href="/index.html "> Inicio</a></p>
+	</body>
+</html>
