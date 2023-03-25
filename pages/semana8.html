@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title></title>
-		<link href="/style.css" rel="stylesheet" type="text/css" />
+		<link href="/style2.css" rel="stylesheet" type="text/css" />
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 		<script>
@@ -22,111 +22,134 @@
 		></script>
 	</head>
 	<body>
-		<h1>CIRCUITOS</h1>
-		<h2>RESISTORES EN SERIE</h2>
-		<p>
-			Cuando la corriente sólo puede seguir una trayectoria al fluir a través de
-			dos o más resistores conectados en línea, se dice que los resistores están
-			en serie. Un caso típico se muestra en la figura 28-1a. Para varios
-			resistores en serie, su resistencia equivalente, Req, está dada por
-			\begin{equation} R_s = R_1 + R_2 + R_3 + ... \end{equation} La resistencia
-			donde \( R_1 \), \( R_2 \), \(R_3\),..., son las resistencias de los
-			resistores. En una combinación en serie, la corriente a través de cada
-			resistencia es la misma para cualquiera de ellas. La caída de potencial
-			(c.p.) a través de la combinación es igual a la suma de las caídas de
-			potencial individuales. La resistencia equivalente en serie siempre es
-			mayor que la más grande de las resistencias individuales.
-		</p>
-		<h2>RESISTORES EN PARALELO</h2>
-		<p>
-			Varios resistores están conectados en paralelo entre dos nodos si un
-			extremo de cada resistor se conecta a un nodo y el otro extremo de cada
-			uno se conecta en el otro nodo. Un caso típico se muestra en la figura
-			28-1b, donde los puntos a y b son nodos. Su resistencia equivalente, \(
-			R_{eq} \), está dada por
-		</p>
+		<header>
+			<h1>CIRCUITOS</h1>
+		</header>
+		<nav>
+			<a href=" /pages/semana9.html"
+				>Siguiente tema: aplicaciones de la electrostática.</a
+			>
+			<!--  <a href="#">Link</a>
+			<a href="#">Link</a> -->
+			<a href="/index.html#menuCorte1.html" style="float: right"
+				>Menú principal</a
+			>
+		</nav>
+		<main>
+			<section>
+				<h2>RESISTORES EN SERIE</h2>
+				<p>
+					Cuando la corriente sólo puede seguir una trayectoria al fluir a
+					través de dos o más resistores conectados en línea, se dice que los
+					resistores están en serie. Un caso típico se muestra en la figura
+					28-1a. Para varios resistores en serie, su resistencia equivalente,
+					Req, está dada por \begin{equation} R_s = R_1 + R_2 + R_3 + ...
+					\end{equation} La resistencia donde \( R_1 \), \( R_2 \), \(R_3\),...,
+					son las resistencias de los resistores. En una combinación en serie,
+					la corriente a través de cada resistencia es la misma para cualquiera
+					de ellas. La caída de potencial (c.p.) a través de la combinación es
+					igual a la suma de las caídas de potencial individuales. La
+					resistencia equivalente en serie siempre es mayor que la más grande de
+					las resistencias individuales.
+				</p>
+			</section>
+			<section>
+				<h2>RESISTORES EN PARALELO</h2>
+				<p>
+					Varios resistores están conectados en paralelo entre dos nodos si un
+					extremo de cada resistor se conecta a un nodo y el otro extremo de
+					cada uno se conecta en el otro nodo. Un caso típico se muestra en la
+					figura 28-1b, donde los puntos a y b son nodos. Su resistencia
+					equivalente, \( R_{eq} \), está dada por
+				</p>
 
-		\begin{equation} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
-		\end{equation}
-		<p>
-			La resistencia equivalente en paralelo siempre es menor que la más pequeña
-			de las resistencias individuales. Si se conectan resistores adicionales en
-			paralelo, el valor de \( R_{eq} \) disminuye para la combinación. Para el
-			caso de tres o más resistencias en serie o en paralelo, se pueden aplicar
-			las leyes de manera recursiva. La caída de potencial V a través de un
-			resistor en paralelo es la misma que la caída de potencial a través de
-			cada uno de los otros resistores de la combinación. La corriente a través
-			del n-ésimo resistor es \( I_n = V / R_n \) y la corriente total que entra
-			a la combinación es igual a la suma de las corrientes de derivación
-			individuales (vea la figura).
-		</p>
-		<h1>EJERCICIOS RESUELTOS</h1>
-		<p>
-			<strong> 1. </strong> Una red doméstica de 120 V tiene encendidos los
-			siguientes focos: 40.0 W, 60.0 W y 75.0 W. Determine la resistencia
-			equivalente de estos focos.
-		</p>
-		<p>
-			<strong>Respuesta.</strong> Podemos utilizar la ley de Ohm y la ley de
-			Joule para determinar la resistencia equivalente de los focos en la red
-			doméstica. Primero, recordemos que la ley de Ohm establece que la
-			corriente eléctrica \( I \) que fluye a través de un circuito es igual al
-			voltaje \( V \) dividido por la resistencia \( R \) del circuito:
-			\begin{equation} I = \frac{V}{R} \end{equation} Además, la ley de Joule
-			establece que la potencia \( P \) disipada en un circuito es igual al
-			producto de la corriente eléctrica y la diferencia de potencial (voltaje)
-			en el circuito:
-		</p>
-		\begin{equation} P =I \cdot V \end{equation}
-		<p>
-			Podemos utilizar estas ecuaciones para determinar la resistencia
-			equivalente de los focos en la red doméstica. De \( P = V \cdot I = V^2R
-			\), se tiene para el primer foco:
-		</p>
+				\begin{equation} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
+				\end{equation}
+				<p>
+					La resistencia equivalente en paralelo siempre es menor que la más
+					pequeña de las resistencias individuales. Si se conectan resistores
+					adicionales en paralelo, el valor de \( R_{eq} \) disminuye para la
+					combinación. Para el caso de tres o más resistencias en serie o en
+					paralelo, se pueden aplicar las leyes de manera recursiva. La caída de
+					potencial V a través de un resistor en paralelo es la misma que la
+					caída de potencial a través de cada uno de los otros resistores de la
+					combinación. La corriente a través del n-ésimo resistor es \( I_n = V
+					/ R_n \) y la corriente total que entra a la combinación es igual a la
+					suma de las corrientes de derivación individuales (vea la figura).
+				</p>
+			</section>
+			<section>
+				<h1>EJERCICIOS RESUELTOS</h1>
+				<p>
+					<strong> 1. </strong> Una red doméstica de 120 V tiene encendidos los
+					siguientes focos: 40.0 W, 60.0 W y 75.0 W. Determine la resistencia
+					equivalente de estos focos.
+				</p>
+				<p>
+					<strong>Respuesta.</strong> Podemos utilizar la ley de Ohm y la ley de
+					Joule para determinar la resistencia equivalente de los focos en la
+					red doméstica. Primero, recordemos que la ley de Ohm establece que la
+					corriente eléctrica \( I \) que fluye a través de un circuito es igual
+					al voltaje \( V \) dividido por la resistencia \( R \) del circuito:
+					\begin{equation} I = \frac{V}{R} \end{equation} Además, la ley de
+					Joule establece que la potencia \( P \) disipada en un circuito es
+					igual al producto de la corriente eléctrica y la diferencia de
+					potencial (voltaje) en el circuito:
+				</p>
+				\begin{equation} P =I \cdot V \end{equation}
+				<p>
+					Podemos utilizar estas ecuaciones para determinar la resistencia
+					equivalente de los focos en la red doméstica. De \( P = V \cdot I =
+					V^2R \), se tiene para el primer foco:
+				</p>
 
-		\begin{equation} R_1 = \frac{V^2}{P_1} = \frac{ (120\text{ V})^2}{40.0\text{
-		W}} = 360 \ \Omega \end{equation}
-		<p>De igual modo, \( R_2 = 240 \ \Omega \) y \( R_3 = 192\ \Omega \)</p>
+				\begin{equation} R_1 = \frac{V^2}{P_1} = \frac{ (120\text{
+				V})^2}{40.0\text{ W}} = 360 \ \Omega \end{equation}
+				<p>De igual modo, \( R_2 = 240 \ \Omega \) y \( R_3 = 192\ \Omega \)</p>
 
-		<p>Como el circuit está en paralelo,</p>
+				<p>Como el circuito está en paralelo,</p>
 
-		\begin{equation} \frac{1}{R_{eq}} = \frac{1}{360 \ \Omega } + \frac{1}{240 \
-		\Omega} + \frac{1}{192 \ \Omega } \end{equation}
+				\begin{equation} \frac{1}{R_{eq}} = \frac{1}{360 \ \Omega } +
+				\frac{1}{240 \ \Omega} + \frac{1}{192 \ \Omega } \end{equation}
 
-		<p>Finalmente, obtenemos</p>
-		\begin{equation} R_{eq} = 82.3 \ \Omega \end{equation}
-		<p>
-			<strong>2.</strong> ¿Qué resistencia debe haber en paralelo con una de 12
-			Ω para obtener una resistencia combinada de 4 Ω?
-		</p>
-		<p>
-			<strong> Respuesta. </strong>
-			De la expresión
-		</p>
-		\begin{equation} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
-		\end{equation} Tenemos que \begin{equation} \frac{1}{4 \ \Omega } =
-		\frac{1}{12 \ \Omega} + \frac{1}{R_2} \end{equation} de donde \( R_2 = 6 \
-		\Omega \)
+				<p>Finalmente, obtenemos</p>
+				\begin{equation} R_{eq} = 82.3 \ \Omega \end{equation}
+				<p>
+					<strong>2.</strong> ¿Qué resistencia debe haber en paralelo con una de
+					12 Ω para obtener una resistencia combinada de 4 Ω?
+				</p>
+				<p>
+					<strong> Respuesta. </strong>
+					De la expresión
+				</p>
+				\begin{equation} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
+				\end{equation} Tenemos que \begin{equation} \frac{1}{4 \ \Omega } =
+				\frac{1}{12 \ \Omega} + \frac{1}{R_2} \end{equation} de donde \( R_2 = 6
+				\ \Omega \)
+			</section>
 
-		<h1>PROBLEMAS PROPUESTOS</h1>
-		<p>
-			<strong> 1. </strong> Calcule la resistencia equivalente de a) 3.0 Ω, 6.0
-			Ω y 9.0 Ω en paralelo; b) 3.0 Ω, 4.0 Ω, 7.0 Ω, 10.0 Ω y 12.0 Ω en
-			paralelo; c) tres elementos calefactores de 33 Ω en paralelo; d) veinte
-			lámparas de 100 Ω en paralelo. <strong> Resp.</strong> a) 1.6 Ω; b) 1.1 Ω;
-			c) 11 Ω; d) 5.0 Ω.
-		</p>
-		<p>
-			<strong> 2. </strong> ¿Qué resistencia se debe conectar en paralelo con
-			una de 20 Ω para hacer una resistencia combinada de 15 Ω?
-			<strong> Resp. </strong> 60 Ω.
-		</p>
-		<p>
-			<strong> 3. </strong>Tres resistores, de 8.0 Ω, 12 Ω y 24 Ω, están en
-			paralelo y la combinación drena una corriente de 20 A. Determine a) la
-			diferencia de potencial de la combinación y b) la corriente en cada
-			resistor. <strong> Resp. </strong>
-			a) 80 V; b) 10 A, 6.7 A, 3.3 A.
-		</p>
+			<section>
+				<h1>PROBLEMAS PROPUESTOS</h1>
+				<p>
+					<strong> 1. </strong> Calcule la resistencia equivalente de a) 3.0 Ω,
+					6.0 Ω y 9.0 Ω en paralelo; b) 3.0 Ω, 4.0 Ω, 7.0 Ω, 10.0 Ω y 12.0 Ω en
+					paralelo; c) tres elementos calefactores de 33 Ω en paralelo; d)
+					veinte lámparas de 100 Ω en paralelo. <strong> Resp.</strong> a) 1.6
+					Ω; b) 1.1 Ω; c) 11 Ω; d) 5.0 Ω.
+				</p>
+				<p>
+					<strong> 2. </strong> ¿Qué resistencia se debe conectar en paralelo
+					con una de 20 Ω para hacer una resistencia combinada de 15 Ω?
+					<strong> Resp. </strong> 60 Ω.
+				</p>
+				<p>
+					<strong> 3. </strong>Tres resistores, de 8.0 Ω, 12 Ω y 24 Ω, están en
+					paralelo y la combinación drena una corriente de 20 A. Determine a) la
+					diferencia de potencial de la combinación y b) la corriente en cada
+					resistor. <strong> Resp. </strong>
+					a) 80 V; b) 10 A, 6.7 A, 3.3 A.
+				</p>
+			</section>
+		</main>
 	</body>
 </html>

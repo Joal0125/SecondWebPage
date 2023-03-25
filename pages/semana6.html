@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title></title>
-		<link href="/style.css" rel="stylesheet" type="text/css" />
+		<link href="/style2.css" rel="stylesheet" type="text/css" />
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 		<script>
@@ -22,57 +22,154 @@
 		></script>
 	</head>
 	<body>
-		<h1>CAPACITANCIA (C)</h1>
-		<p>
-			<strong> UN CAPACITOR </strong> o condensador es un dispositivo que
-			almacena carga. Con frecuencia, aunque ciertamente no siempre, consiste en
-			dos conductores separados por un aislante o dieléctrico. La capacitancia
-			(C) de un capacitor se define como
-		</p>
+		<header>
+			<h1>CAPACITANCIA (C)</h1>
+		</header>
+		<nav>
+			<a href=" /pages/semana7.html">Siguiente tema: corriente eléctrica</a>
+			<!--  <a href="#">Link</a>
+			<a href="#">Link</a> -->
+			<a href="/index.html#menuCorte1.html" style="float: right"
+				>Menú principal</a
+			>
+		</nav>
+		<main>
+			<section>
+				<p>
+					<strong> UN CAPACITOR </strong> o condensador es un dispositivo que
+					almacena carga. Con frecuencia, aunque ciertamente no siempre,
+					consiste en dos conductores separados por un aislante o dieléctrico.
+					La capacitancia (C) de un capacitor se define como
+				</p>
 
-		\begin{equation} \text{ Capacitancia } = \frac{ \text {magnitud de la carga
-		\( q\) en cualquier conductor}}{ \text{magnitud de la diferencia de
-		potencial \( V \) entre los conductores}} \end{equation}
-		<p>
-			Para \( q\) en coulombs y \( V \) en volts, \( C \) está en farads (F).
-		</p>
-		<p>
-			<strong> CAPACITOR DE PLACAS PARALELAS: </strong> En un capacitor de
-			placas paralelas, cada área A y separadas una distancia d, su capacitancia
-			está dada por
-		</p>
-		\begin{equation} C = K \cdot \epsilon_0 \cdot \frac{ A}{d } \end{equation}
-		<p>
-			donde \( K = \epsilon / \epsilon_0 \) es la constante dieléctrica
-			adimensional del material no conductor (el dieléctrico) entre las placas,
-			y \( \epsilon_0 = 8.85 \times 10 ^{-12} \ C^2 / N \cdot m^2 = 8.85 \times
-			10 ^{-12} \ F / m\).
-		</p>
-		<p>
-			Para el vacío, \( K = 1 \) , de modo que un capacitor de placas paralelas
-			lleno con un dieléctrico tiene una capacitancia K veces mayor que el mismo
-			capacitor con vacío entre sus placas. Este resultado es válido para todo
-			tipo de capacitores, sin importar su geometría.
-		</p>
-		<h2>ASOCIACIÓN DE CAPACITORES</h2>
-		<p>
-			<strong> CAPACITORES EN PARALELO. </strong>
+				\begin{equation*} \text{ Capacitancia } = \frac{ \text {magnitud de la
+				carga \( Q\) en cualquier conductor}}{ \text{magnitud de la diferencia
+				de potencial \( V \) entre los conductores}} \end{equation*}
 
-			Como se muestra en la figura, las capacitancias se suman algebraicamente
-			para capacitores en paralelo.
-		</p>
-		<p>
-			<strong> CAPACITORES EN SERIE. </strong>
+				<p>
+					La capacitancia siempre dará como resultado un valor positivo, es
+					entendida como la medida de la capacidad para almacenar cargas
+					eléctricas de un capacitor. Su fórmula es la siguiente:
+				</p>
+				$$\displaystyle C=\frac{Q}{\Delta V}$$
+				<p>
+					Donde: <br />
+					C: es la capacidad eléctrica. En el S.I. se mide en faradios (F).
+					<br />
+					Q: es el exceso de carga del conductor. En el S.I. se mide en
+					culombios (C).<br />
+					V: diferencia de potencial En el S.I. se mide en voltios (V).
+				</p>
+				<p>
+					<strong> CAPACITOR DE PLACAS PARALELAS: </strong> En un capacitor de
+					placas paralelas, cada área A y separadas una distancia d, su
+					capacitancia está dada por
+				</p>
+				\begin{equation} C = K \cdot \epsilon_0 \cdot \frac{ A}{d }
+				\end{equation}
+				<p>
+					donde \( K = \epsilon / \epsilon_0 \) es la constante dieléctrica
+					adimensional del material no conductor (el dieléctrico) entre las
+					placas, y \( \epsilon_0 = 8.85 \times 10 ^{-12} \ C^2 / N \cdot m^2 =
+					8.85 \times 10 ^{-12} \ F / m\).
+				</p>
+				<p>
+					Para el vacío, \( K = 1 \) , de modo que un capacitor de placas
+					paralelas lleno con un dieléctrico tiene una capacitancia K veces
+					mayor que el mismo capacitor con vacío entre sus placas. Este
+					resultado es válido para todo tipo de capacitores, sin importar su
+					geometría.
+				</p>
+				<figure>
+					<img
+						src="/imagenes/CapacitanciaDef.png"
+						alt="Ejercicio ley de Gauss"
+					/>
+					<figcaption>
+						Figura. Título o nombre de la figura aquí. Modificado de
+						Sear-Zemanski ...
+					</figcaption>
+				</figure>
+				<h2>ASOCIACIÓN DE CAPACITORES</h2>
+				<p>
+					La forma más simple de combinar estos arreglos de capacitores es la
+					combinación en serie o en paralelo, las cuales permiten aumentar o
+					disminuir la capacitancia entre dos puntos, según las necesidades que
+					la red o los dispositivos que la forman tengan.
+				</p>
+				<p>
+					<strong> CAPACITORES EN PARALELO. </strong>
 
-			Como se muestra en la figura, para capacitores en serie, se suman las
-			capacitancias recíprocas.
-		</p>
-		<p>
-			<strong> ENERGÍA ALMACENADA EN UN CAPACITOR: </strong>
-			La energía \(EP_E\) almacenada en un capacitor de capacitancia C que tiene
-			una carga q y una diferencia potencial V es
-		</p>
-		\begin{equation} PE_E = \frac{ 1}{2 } \cdot q \cdot V = \frac{ 1}{2 } \cdot
-		C \cdot V^2 = \frac{ 1}{2 } \cdot \frac{ q^2}{C } \end{equation}
+					Como se muestra en la figura, las capacitancias se suman
+					algebraicamente para capacitores en paralelo.
+				</p>
+				<p>
+					La conexión de capacitores en paralelo tiene las siguientes
+					propiedades:
+				</p>
+				<ol>
+					<li>La diferencia de potencial es la misma para cada capacitor.</li>
+					$$\Delta V=\Delta V_1=\Delta V_2$$
+					<br />
+					<li>
+						Las cargas de los capacitores son diferentes: Q1,⋯, Qn, tal que 𝑄 =
+						𝑄1 + ⋯ + 𝑄𝑛 es la carga total suministrada por la fuente.
+					</li>
+					$$\displaystyle Q=Q_1+Q_2$$
+
+					<br />
+					<li>
+						La capacitancia equivalente de la combinación de capacitores se
+						obtiene a partir de la suma de las capacitancias individuales.
+					</li>
+					$$\displaystyle C_{eq}=C_1+C_2$$
+				</ol>
+
+				<p>
+					<strong> CAPACITORES EN SERIE. </strong>
+
+					Como se muestra en la figura, para capacitores en serie, se suman las
+					capacitancias recíprocas.
+				</p>
+				<p>
+					La conexión de capacitores en serie tiene las siguientes propiedades:
+				</p>
+				<ol>
+					<br />
+					<li>Cada uno de los capacitores tiene la misma carga.</li>
+					$$\displaystyle Q = Q_1 = Q_2$$
+					<br />
+					<li>
+						La carga del capacitor equivalente es igual a la carga de los
+						capacitores individuales.
+					</li>
+					<br />
+					<li>
+						La capacitancia equivalente de la combinación de capacitores (C) se
+						obtiene a partir de la suma de los inversos de las capacitancias de
+						los capacitores individuales.
+					</li>
+					$$\frac{1}{C_{eq}} =\frac{1}{C_1} +\frac{1}{C_2}$$
+					<br />
+					<li>
+						Cada capacitor se encuentra a distintas diferencias de potenciales:
+						V1, V2, …Vn, tal que 𝑉 = 𝑉1 + ⋯ + 𝑉𝑛 es la diferencia de potencial a
+						la que se encuentra el capacitor equivalente de la configuración.
+					</li>
+					$$\displaystyle \Delta V=\Delta V_1+\Delta V_2$$
+				</ol>
+				<p>
+					<strong> ENERGÍA ALMACENADA EN UN CAPACITOR: </strong>
+					La energía \(EP_E\) almacenada en un capacitor de capacitancia C que
+					tiene una carga q y una diferencia potencial V es
+				</p>
+				\begin{equation} PE_E = \frac{ 1}{2 } \cdot q \cdot V = \frac{ 1}{2 }
+				\cdot C \cdot V^2 = \frac{ 1}{2 } \cdot \frac{ q^2}{C } \end{equation}
+			</section>
+		</main>
+		<footer>
+			<p>Autor: Jorge Tapias</p>
+			<p><a href="working.jtapias@gmail.com">working.jtapias@gmail.com</a></p>
+		</footer>
 	</body>
 </html>
