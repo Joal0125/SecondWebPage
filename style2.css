@@ -10,13 +10,13 @@ body {
 
 /* Header/Blog Title */
 header {
-	padding: 30px;
+	padding: 10px;
 	text-align: center;
 	background: white;
 }
 
 header h1 {
-	font-size: 50px;
+	font-size: 30px;
 }
 
 /* Style the top navigation bar */
@@ -60,6 +60,22 @@ main::after {
 	display: table;
 	clear: both;
 }
+/* formato de imagenes */
+img {
+	width: 70%;
+	height: auto;
+	min-width: 400px;
+	max-width: 600px;
+	text-align: center;
+	/*  border: 1px solid #777;*/
+}
+/* formato al contenedor de imagenes */
+figure {
+	padding: auto;
+	margin: 10 px;
+	text-align: center;
+}
+
 /* Footer */
 footer {
 	padding: 10px;
