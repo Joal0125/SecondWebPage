@@ -41,17 +41,53 @@
 				<p>
 					Cuando la corriente sólo puede seguir una trayectoria al fluir a
 					través de dos o más resistores conectados en línea, se dice que los
-					resistores están en serie. Un caso típico se muestra en la figura
-					28-1a. Para varios resistores en serie, su resistencia equivalente,
-					Req, está dada por \begin{equation} R_s = R_1 + R_2 + R_3 + ...
-					\end{equation} La resistencia donde \( R_1 \), \( R_2 \), \(R_3\),...,
-					son las resistencias de los resistores. En una combinación en serie,
-					la corriente a través de cada resistencia es la misma para cualquiera
-					de ellas. La caída de potencial (c.p.) a través de la combinación es
-					igual a la suma de las caídas de potencial individuales. La
-					resistencia equivalente en serie siempre es mayor que la más grande de
-					las resistencias individuales.
+					resistores están en serie. Un caso típico se muestra en la figura.
 				</p>
+
+				<figure>
+					<img
+						src="/imagenes/circuitoSerieBateria.png"
+						alt="Resistencias en serie sencillo."
+					/>
+
+					<figcaption>
+						Figura. Dos resistores conectados en serie a una batería. Imagen
+						tomada de Serway.
+					</figcaption>
+				</figure>
+				<p>
+					Para varios resistores en serie, su resistencia equivalente, Req, está
+					dada por
+				</p>
+
+				\begin{equation} R_s = R_1 + R_2 + R_3 + \dotsm R_N \end{equation}
+				<p>
+					La resistencia donde \( R_1 \), \( R_2 \), \(R_3 \) y \(R_N \) son las
+					resistencias de los resistores. En una combinación en serie, la
+					corriente a través de cada resistencia es la misma para cualquiera de
+					ellas. </p>
+					
+					\begin{equation} 
+					I = I_1 = I_2 = \dotsm = I_N 
+					\end{equation} 
+				<p>La
+					caída de potencial (c.p.) a través de la combinación es igual a la
+					suma de las caídas de potencial individuales.
+				</p>
+				\begin{equation} \Delta V = \Delta V_1 + \Delta V_2 + \dotsm + \Delta
+				V_N \end{equation}
+				<p>
+					La resistencia equivalente en serie siempre es mayor que la más grande
+					de las resistencias individuales.
+				</p>
+				<figure>
+					<img src="/imagenes/circuitoSerie.png" alt="Resistencias en serie." />
+
+					<figcaption>
+						Figura. Diagrama del circuito para los dos resistores y la
+						batería.Circuito equivalente Imagen tomada de Serway.
+					</figcaption>
+				</figure>
 			</section>
 			<section>
 				<h2>RESISTORES EN PARALELO</h2>
@@ -59,23 +95,56 @@
 					Varios resistores están conectados en paralelo entre dos nodos si un
 					extremo de cada resistor se conecta a un nodo y el otro extremo de
 					cada uno se conecta en el otro nodo. Un caso típico se muestra en la
-					figura 28-1b, donde los puntos a y b son nodos. Su resistencia
-					equivalente, \( R_{eq} \), está dada por
+					figura, donde los puntos a y b son nodos.
+					<figure>
+						<img
+							src="/imagenes/circuitoParaleloBateria.png"
+							alt="Resistencias en paralelo sencillo."
+						/>
+
+						<figcaption>
+							Figura. Dos resistores conectados en paralelo a una batería.
+							Imagen tomada de Serway.
+						</figcaption>
+					</figure>
+					Su resistencia equivalente, \( R_{eq} \), está dada por
 				</p>
 
 				\begin{equation} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
 				\end{equation}
 				<p>
 					La resistencia equivalente en paralelo siempre es menor que la más
-					pequeña de las resistencias individuales. Si se conectan resistores
-					adicionales en paralelo, el valor de \( R_{eq} \) disminuye para la
-					combinación. Para el caso de tres o más resistencias en serie o en
-					paralelo, se pueden aplicar las leyes de manera recursiva. La caída de
-					potencial V a través de un resistor en paralelo es la misma que la
-					caída de potencial a través de cada uno de los otros resistores de la
-					combinación. La corriente a través del n-ésimo resistor es \( I_n = V
-					/ R_n \) y la corriente total que entra a la combinación es igual a la
-					suma de las corrientes de derivación individuales (vea la figura).
+					pequeña de las resistencias individuales.
+					<figure>
+						<img
+							src="/imagenes/circuitoParalelo.png"
+							alt="Resistencias en paralelo."
+						/>
+
+						<figcaption>
+							Figura. Diagrama del circuito de los dos resistores y la batería.
+							Circuito equivalente. Imagen tomada de Serway.
+						</figcaption>
+					</figure>
+					Si se conectan resistores adicionales en paralelo, el valor de \(
+					R_{eq} \) disminuye para la combinación. Para el caso de tres o más
+					resistencias en serie o en paralelo, se pueden aplicar las leyes de
+					manera recursiva. 
+					
+					<p> La caída de potencial V a través de un resistor en
+					paralelo es la misma que la caída de potencial a través de cada uno de
+					los otros resistores de la combinación.</p>
+					\begin{equation} 
+					\Delta V = \Delta V_1 = \Delta V_2 = \dotsm = \Delta V_N 
+				\end{equation}
+					
+					La corriente a través del
+					n-ésimo resistor es \( I_n = V / R_n \) y la corriente total que entra
+					a la combinación es igual a la suma de las corrientes de derivación
+					individuales (vea la figura anterior).
+					\begin{equation} 
+					I = I_1 + I_2 + \dotsm + I_N 
+					\end{equation}
 				</p>
 			</section>
 			<section>
@@ -90,30 +159,34 @@
 					Joule para determinar la resistencia equivalente de los focos en la
 					red doméstica. Primero, recordemos que la ley de Ohm establece que la
 					corriente eléctrica \( I \) que fluye a través de un circuito es igual
-					al voltaje \( V \) dividido por la resistencia \( R \) del circuito:
-					\begin{equation} I = \frac{V}{R} \end{equation} Además, la ley de
+					al voltaje \( V \) dividido por la resistencia \( R \) del circuito: </p>
+					\begin{equation*} 
+					I = \frac{V}{R} 
+					\end{equation*} 
+					<p> Además, la ley de
 					Joule establece que la potencia \( P \) disipada en un circuito es
 					igual al producto de la corriente eléctrica y la diferencia de
 					potencial (voltaje) en el circuito:
 				</p>
-				\begin{equation} P =I \cdot V \end{equation}
+				\begin{equation*} 
+				P =I \cdot V \end{equation*}
 				<p>
 					Podemos utilizar estas ecuaciones para determinar la resistencia
 					equivalente de los focos en la red doméstica. De \( P = V \cdot I =
 					V^2R \), se tiene para el primer foco:
 				</p>
 
-				\begin{equation} R_1 = \frac{V^2}{P_1} = \frac{ (120\text{
-				V})^2}{40.0\text{ W}} = 360 \ \Omega \end{equation}
+				\begin{equation*} R_1 = \frac{V^2}{P_1} = \frac{ (120\text{
+				V})^2}{40.0\text{ W}} = 360 \ \Omega \end{equation*}
 				<p>De igual modo, \( R_2 = 240 \ \Omega \) y \( R_3 = 192\ \Omega \)</p>
 
 				<p>Como el circuito está en paralelo,</p>
 
-				\begin{equation} \frac{1}{R_{eq}} = \frac{1}{360 \ \Omega } +
-				\frac{1}{240 \ \Omega} + \frac{1}{192 \ \Omega } \end{equation}
+				\begin{equation*} \frac{1}{R_{eq}} = \frac{1}{360 \ \Omega } +
+				\frac{1}{240 \ \Omega} + \frac{1}{192 \ \Omega } \end{equation*}
 
 				<p>Finalmente, obtenemos</p>
-				\begin{equation} R_{eq} = 82.3 \ \Omega \end{equation}
+				\begin{equation*} R_{eq} = 82.3 \ \Omega \end{equation*}
 				<p>
 					<strong>2.</strong> ¿Qué resistencia debe haber en paralelo con una de
 					12 Ω para obtener una resistencia combinada de 4 Ω?
@@ -122,10 +195,13 @@
 					<strong> Respuesta. </strong>
 					De la expresión
 				</p>
-				\begin{equation} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
-				\end{equation} Tenemos que \begin{equation} \frac{1}{4 \ \Omega } =
-				\frac{1}{12 \ \Omega} + \frac{1}{R_2} \end{equation} de donde \( R_2 = 6
-				\ \Omega \)
+				\begin{equation*} \frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
+				\end{equation*} 
+				<p> Tenemos que </p>
+				\begin{equation*} \frac{1}{4 \ \Omega } =
+				\frac{1}{12 \ \Omega} + \frac{1}{R_2} \end{equation*} 
+				<p> de donde \( R_2 = 6
+				\ \Omega \)</p>
 			</section>
 
 			<section>

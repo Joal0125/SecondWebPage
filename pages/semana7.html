@@ -33,10 +33,24 @@
 		</nav>
 		<main> 
 			<section> 
-		<p>
-			UNA CORRIENTE (I) de electricidad existe en una región cuando una carga
-			eléctrica neta se transporta desde un punto a otro en dicha región.
-			Suponga que la carga se mueve a través de un alambre. Si la carga y se
+		<p> <h2>CORRIENTE ELÉCTRICA (I)</h2>
+
+			Una corriente eléctrica  existe en una región cuando una carga
+			eléctrica neta se transporta desde un punto a otro en dicha región.  </p>
+			<figure>
+				<img src="/imagenes/corrienteElectrica1a.png" alt="Coriente eléctrica."/>
+				<img src="/imagenes/corrienteElectrica1b.png" alt="Coriente eléctrica."/>
+				<figcaption>
+					Figura. La tasa de tiempo de flujo de carga a través de la zona
+					A es la corriente I. a) La dirección
+					de la corriente es la misma que la
+					del flujo de la carga positiva. b) Las cargas negativas que fluyen hacia
+					la izquierda son equivalentes a una cantidad igual de cargas positivas que fluyen hacia la derecha. Imagen tomada de Serway.
+				</figcaption>
+
+				
+			</figure>
+			<p>Suponga que la carga se mueve a través de un alambre. Si la carga y se
 			transporta a través de una sección transversal dada del alambre en un
 			tiempo t, entonces la corriente a través del alambre es:
 		</p>
@@ -45,10 +59,10 @@
 			Aquí, q está en coulombs, I en segundos e I en amperes (1 A = 1 C/s). Por
 			costumbre, la dirección de la corriente se toma en la dirección de flujo
 			de la carga positiva. De este modo, un flujo de electrones hacia la
-			derecha corresponde a una corriente hacia la izquierda. 
-         
-         <h2> UNA BATERÍA </h2>
-         UNA BATERÍA es una
+			derecha corresponde a una corriente hacia la izquierda.  </p>
+
+			<h2> PILA O BATERÍA </h2>
+         <p> UNA BATERÍA es una
 			fuente de energía eléctrica. Si en la batería no hay pérdidas de energía
 			interna, entonces la diferencia de potencial  entre
 			sus terminales se llama fuerza electromotriz (fem) de la batería. A menos
@@ -56,6 +70,39 @@
 			potencial entre las terminales (d.p.t.) de una batería es igual a su fem.
 			La unidad para la fem es la misma que la unidad para la diferencia de
 			potencial, el volt. 
+		</p>
+				<h2> DIFERENCIA DE POTENCIAL </h2>
+				<p> LA DIFERENCIA DE POTENCIAL DE LAS TERMINALES (o voltaje) de una bateria o
+				generador cuando entrega una corriente I está relacionada con su fuerza
+				electromotriz \( \xi \) y su resistencia internar de la siguiente forma:
+			</p>
+			<ol>
+				<li>
+					Cuando entrega corriente(en la descarga):<br>
+					Voltaje de las terminales = (fem) - (caida de voltaje)
+					\begin{equation*}
+					V = \xi - I \cdot r
+					\end{equation*}
+	
+				</li>
+				<li>
+					Cuando recibe corriente(en la carga):<br>
+					Voltaje de las terminales = (fem) + (caida de voltaje)
+					\begin{equation*}
+					V = \xi + I \cdot r
+					\end{equation*}
+	
+				</li>
+				<li>
+					Cuando no existe corriente: <br>
+					Voltaje de las terminales = fem de la bateria o generador
+				</li>
+			</ol>
+         
+         
+			
+			
+	<p>
          <h2>LA RESISTENCIA (R) </h2>
          LA RESISTENCIA (R) de un alambre u otro objeto es la
 			medida de la diferencia de potencial (V) que se debe aplicar a través del
@@ -66,15 +113,43 @@
 			La unidad de resistencia es el ohm, para la cual se usa el simbolo \(
 			\Omega \) (omega): \( 1 \Omega = 1 V / A \).
 		</p>
+		<figure>
+			<img src="/imagenes/resistenciaElectricaDefinicion.png" alt="Resistencia eléctrica."/>
+			
+			<figcaption>
+				Figura. Conductor uniforme de longitud / y área de sección transversal A. La corriente I en el conductor es proporcional a la diferencia de potencial o de manera equivalente al campo eléctrico y la longitud. Imagen tomada de Serway.
+			</figcaption>
+			</figure>
+
+			<p>
+				<h2>RESISTIVIDAD </h2>
+				 La resistencia R de un alambre de longitud L y área de sección transversal A es
+	
+			</p>
+			$$ R = \rho \cdot \frac{L}{A}$$
+	<p>
+		donde \( \rho \) es una constante llamada resistividad. La resistividad es una caracteristica del material del cual esta hecho el alambre. Para L en m, A en m2 y R en \( \Omega \), las unidades de \( \rho \) son  \( \Omega \cdot m\).
+	
+		
+	
+	</p>
+
 		<p>
          <h2> LA LEY DE OHM  </h2>
 			LA LEY DE OHM tenía originalmente dos partes. La primera era simplemente la
-			ecuación definitoria de resistencia, \( V = IR \) . Con frecuencia esta ecuación se cita como la ley de Ohm. Sin embargo, Ohm también estableció que la resistencia R es una constante independiente de V. Esta última parte de
+			ecuación definitoria de resistencia, \( V = I \cdot R \). Con frecuencia esta ecuación se cita como la ley de Ohm. Sin embargo, Ohm también estableció que la resistencia R es una constante independiente de V. Esta última parte de
 			la ley sólo es aproximadamente correcta. La relación V = IR puede
 			aplicarse a cualquier resistor, donde V es la diferencia de potencial
 			 entre los dos extremos del resistor, I es la corriente a través del
 			resistor y R es la resistencia del resistor en estas condiciones.
 		</p>
+		<figure>
+			<img src="/imagenes/leyDohm.png" alt="Ley de Ohm."/>
+			
+			<figcaption>
+				Figura. Imagen ilustrativa de la ley de Ohm.
+			</figcaption>
+			</figure>
 
 		<p>
          <h2> MEDICIÓN DE LA RESISTENCIA POR MEDIO DE AMPERÍMETRO Y VOLTÍMETRO </h2>
@@ -85,51 +160,18 @@
 			terminales de un voltímetro (alta resistencia) a través de la resistencia,
 			es decir, en paralelo con ésta. La resistencia se calcula al dividir la
 			lectura del voltímetro entre la lectura del amperímetro, de acuerdo con la
-			ley de Ohm, \( R=V/I \) . (Si se requiere el valor exacto de la resistencia, las
+			ley de Ohm, \( R = V/I \) . (Si se requiere el valor exacto de la resistencia, las
 			resistencias internas del voltímetro y del amperimetro deben considerarse
 			como parte del circuito.)
 		</p>
-		<p>
-         <h2> DIFERENCIA DE POTENCIAL </h2>
-			LA DIFERENCIA DE POTENCIAL DE LAS TERMINALES (o voltaje) de una bateria o
-			generador cuando entrega una corriente I está relacionada con su fuerza
-			electromotriz \( \xi \) y su resistencia internar de la siguiente forma:
-		</p>
-      <ol>
-         <li>
-            Cuando entrega corriente(en la descarga):<br>
-            Voltaje de las terminales = (fem) - (caida de voltaje)
-            \begin{equation*}
-            V = \xi - I \cdot r
-            \end{equation*}
+		<figure>
+			<img src="/imagenes/medicionCorrienteVoltaje.png" alt="Medidas con multímetro."/>
+			
+			<figcaption>
+				Figura. a) Bosquejo de un circuito real que se utiliza para medir la corriente en el foco de una linterna y la diferencia de potencial a través de él. b) Diagrama esquemático del circuito que se muestra en a). c) Se puede usar un multímetro digital para medir tanto corriente como diferencia de potencial.
+			</figcaption>
+			</figure>
 
-         </li>
-         <li>
-            Cuando recibe corriente(en la carga):<br>
-            Voltaje de las terminales = (fem) + (caida de voltaje)
-            \begin{equation*}
-            V = \xi + I \cdot r
-            \end{equation*}
-
-         </li>
-         <li>
-            Cuando no existe corriente: <br>
-            Voltaje de las terminales = fem de la bateria o generador
-         </li>
-      </ol>
-      <p>
-         <h2>RESISTIVIDAD </h2>
-          La resistencia R de un alambre de longitud L y área de sección transversal A es
-
-      </p>
-      $$ R = \rho \cdot \frac{L}{A}$$
-<p>
-   donde \( \rho \) es una constante llamada resistividad. La resistividad es una caracteristica del material del cual esta hecho el alambre. Para L en m, A en m2 y R en \( \Omega \), las unidades de \( \rho \) son  \( \Omega \cdot m\).
-
-   
-
-</p>
-<P>
    <h3>VARIACION DE LA RESISTENCIA CON LA TEMPERATURA</h3>
    Si un alambre tiene una resistencia \( R_0\) a una temperatura \( T_0\), entonces su resistencia R a una temperatura T es
 </P>
