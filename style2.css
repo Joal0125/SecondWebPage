@@ -62,10 +62,11 @@ main::after {
 }
 /* formato de imagenes */
 img {
-	width: 70%;
+	/*width: 70%;
+	 min-width: 300px;
+	 max-width: 400px; */
 	height: auto;
-	min-width: 400px;
-	max-width: 600px;
+	max-width: 100%;
 	text-align: center;
 	/*  border: 1px solid #777;*/
 }
@@ -74,6 +75,9 @@ figure {
 	padding: auto;
 	margin: 10 px;
 	text-align: center;
+}
+figcaption {
+	font-size: 15px;
 }
 
 /* Footer */
